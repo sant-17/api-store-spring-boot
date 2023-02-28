@@ -3,6 +3,7 @@ package com.storeapi.persistence.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "clientes")
 public class Cliente {
     @Id
     @Column(name = "id")
